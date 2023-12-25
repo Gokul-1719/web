@@ -1,0 +1,118 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital@0;1&family=Poppins:ital,wght@1,200&family=Zilla+Slab:ital,wght@1,300&display=swap');
+
+/* General Styles */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  font-family: 'Poppins', sans-serif; /* Updated font choice */
+}
+
+section {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 0; /* Added some vertical padding */
+}
+
+/* Navbar */
+#navbar {
+  position: sticky;
+  top: 0;
+  background: #333;
+  color: white;
+  padding: 15px 20px;
+  z-index: 10;
+}
+
+.bold {
+  font-size: 20px;
+}
+
+.navbar-nav .nav-link {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  padding: 8px 15px;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.navbar-nav .nav-link:hover {
+  border-bottom: 2px solid #ffc107;
+}
+
+/* Home Section */
+#home img,
+#about img {
+  border-radius: 15px; /* Reduced border radius for a more subtle effect */
+  max-width: 100%;
+  height: auto;
+}
+
+span {
+  color: #007bff; /* Adjusted color */
+  font-weight: bold;
+}
+
+p {
+  font-size: 16px; /* Reduced font size */
+  line-height: 1.6; /* Improved readability */
+  margin-bottom: 20px; /* Added bottom margin */
+}
+
+/* Services Section */
+.card img {
+  transition: transform 0.5s ease; /* Slightly faster transition */
+}
+
+.card img:hover {
+  transform: scale(1.1); /* Slightly reduced scale on hover */
+}
+
+/* Contact Section */
+form {
+  padding: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  max-width: 400px; /* Center the form better */
+  margin: 0 auto;
+}
+
+/* Adjust styles as needed for other sections and elements */
+
+/* Media Queries for responsiveness can be added here */
+
+
+
+/* CSS for Login and Signup Sections */
+
+/* Common Styles */
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    margin-top: 20px;
+}
+
+/* Specific Styles for Login Section */
+#login {
+    background-color: #f0f0f0;
+    padding: 40px 20px;
+}
+
+/* Specific Styles for Signup Section */
+#signup {
+    background-color: #e0e0e0;
+    padding: 40px 20px;
+}
